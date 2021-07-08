@@ -1,6 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
 }
+
+li {
+    display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  float: left;
+  font-size: 15px;
+  font-family: 'Zen Loop', cursive;
+  padding: 20px 20px 20px 20px;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
 .navbar {
     border: 1px solid;
     text-align: center;
@@ -31,9 +56,15 @@ ul {
 }
 
 .card {
-    
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+}
+
+.upperCaseHeader {
+    color: white;
+    padding: 4px 4px 4px 4px;
+    float: left;
+
 }
